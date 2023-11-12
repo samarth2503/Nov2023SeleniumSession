@@ -3,8 +3,14 @@ package SeleniumSession;
 public class NewMerge {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		System.out.println("remote -- merge");
+
+	}
+
+	public void login()
+	{
+		System.out.println("remote -- login");
 	}
 
 }
