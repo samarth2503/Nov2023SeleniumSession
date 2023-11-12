@@ -12,6 +12,7 @@ public class LaunchAppTest {
 
   public void closeApp() {
 		System.out.println("Remote --close app");
+
 	}
 
 }
