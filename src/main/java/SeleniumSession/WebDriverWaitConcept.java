@@ -41,6 +41,8 @@ public class WebDriverWaitConcept {
 		wait.until(ExpectedConditions.numberOfElementsToBeLessThan(email, 2));
 		wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(email, 1));
 		wait.until(ExpectedConditions.numberOfWindowsToBe(4));
+		wait.until(ExpectedConditions.urlContains("abc"));
+		wait.until(ExpectedConditions.urlToBe("abc"));
 		
 		
 		// TimeOut exception: Expected condition failed
@@ -50,7 +52,7 @@ public class WebDriverWaitConcept {
 
 	}
 	
-	// Check only the presence of element in DOM doesn't neccesarly mean element is visible
+	// Check only the presence of element in DOM doesn't necessarly means element is visible
 	public static WebElement waitForPresenceELement(By locator, int timeOut)
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));

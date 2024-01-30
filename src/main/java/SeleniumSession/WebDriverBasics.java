@@ -26,6 +26,7 @@ public class WebDriverBasics {
 		System.out.println("Current Url is "+driver.getCurrentUrl());
 		
 		System.out.println("Page Source is "+driver.getPageSource());
+		
 
 	}
 

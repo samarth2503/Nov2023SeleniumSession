@@ -26,6 +26,7 @@ public class DragAndDropConcept {
 		
 		act.clickAndHold(sourcele).moveToElement(targetele).release().build().perform();
 		
+		
 		// Alternate Way
 		
 		act.dragAndDrop(sourcele, targetele).perform();

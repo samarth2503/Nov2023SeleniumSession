@@ -24,9 +24,10 @@ public class ActionClickAndSendKeys {
 		
 		Actions ac = new Actions(driver);
 		
-		ac.sendKeys(driver.findElement(email), "naveen@gmail.com").perform();				// If we don't use perform thena ction won't be performed
+		ac.sendKeys(driver.findElement(email), "naveen@gmail.com").perform();				// If we don't use perform then action won't be performed
 		
 		ac.click(driver.findElement(loginLink)).perform();
+		
 	}
 
 }

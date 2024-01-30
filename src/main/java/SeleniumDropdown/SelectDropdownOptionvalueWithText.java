@@ -3,6 +3,7 @@ package SeleniumDropdown;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,6 +24,9 @@ public class SelectDropdownOptionvalueWithText {
 		driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
 		
 		WebElement country = driver.findElement(By.xpath("//div[@class='single_tab_div resp-tab-content resp-tab-content-active']/p/select/option"));
+		Dimension d = country.getSize();
+		System.out.println(d.getHeight() + "  "+ d.getWidth());
+		
 		
 		Select sel = new Select(country);
 		

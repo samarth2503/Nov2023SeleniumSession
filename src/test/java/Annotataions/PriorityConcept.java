@@ -38,13 +38,13 @@ public class PriorityConcept {
 	}
 	
 	@Test()
-	public void c_test()
+	public void ac_test()
 	{
 		System.out.println("C Test");
 	}
 	
 	@Test()
-	public void d_test()
+	public void acd_test()
 	{
 		System.out.println("D Test");
 	}

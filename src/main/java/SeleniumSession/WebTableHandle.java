@@ -14,6 +14,8 @@ public class WebTableHandle {
 		
 		//  (//a[contains(text(),'Chitra')]/parent::td/following-sibling::td/span)[position()=1]
 		
+		//  //div[@id='innings_1']//span[text()='India Innings']/parent::div/following-sibling::div//a[contains(text(),'Axar')]/parent::div/following-sibling::div/span
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\samarjain\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
@@ -43,6 +45,18 @@ public class WebTableHandle {
 	{
 		String path = "//a[contains(text(),'"+name+"')]/parent::td/preceding-sibling::td/input[@type='checkbox']";
 		driver.findElement(By.xpath(path)).click();
+	}
+	
+	public static void getBatsMenDetails(String name)
+	{
+		String wicketTaker = "//div[@id='innings_1']//span[text()='India Innings']/parent::div/following-sibling::div//a[contains(text(),'"+name+"')]/parent::div/following-sibling::div/span";
+		String a = "//div[@id='innings_1']//span[text()='India Innings']/parent::div/following-sibling::div//a[contains(text(),'Axar')]/parent::div/following-sibling::div[2]";
+		String b = "//div[@id='innings_1']//span[text()='India Innings']/parent::div/following-sibling::div//a[contains(text(),'Axar')]/parent::div/following-sibling::div[3]";
+		String c = "//div[@id='innings_1']//span[text()='India Innings']/parent::div/following-sibling::div//a[contains(text(),'Axar')]/parent::div/following-sibling::div[4]";
+		String d = "//div[@id='innings_1']//span[text()='India Innings']/parent::div/following-sibling::div//a[contains(text(),'Axar')]/parent::div/following-sibling::div[5]";
+				
+		
+		//driver.findElement(By.xpath(""))
 	}
 
 }

@@ -6,7 +6,8 @@ public class WebDriverManagerConcept {
 
 	public static void main(String[] args) {
 		
-		WebDriverManager.chromedriver().setup();
+		
+		
 
 	}
 

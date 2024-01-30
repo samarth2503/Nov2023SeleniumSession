@@ -26,6 +26,8 @@ public class DropdownOptionHandle {
 		Select sel = new Select(country);
 		
 		List<WebElement> indusOption = sel.getOptions();
+		sel.
+		sel.isMultiple();
 		
 		System.out.println(indusOption.size());
 		

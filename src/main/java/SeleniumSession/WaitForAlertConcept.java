@@ -26,7 +26,6 @@ public class WaitForAlertConcept {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		//Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-		
 
 	}
 	

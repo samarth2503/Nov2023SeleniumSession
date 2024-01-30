@@ -9,7 +9,7 @@ public class CustomXpath {
 		// xpath --> it is not attribute
 		// address of element inside the html dom.
 		
-		//2 types of xpath:
+		//2 types of xpath:	
 		//a. Absolute address - Absolute address of element
 		
 		//html/body/div[2]/div[1]/div[3]/ul[1]

@@ -2,52 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-05T17:42:07Z" name="Default suite" finished-at="2023-11-05T17:42:07Z" duration-ms="41">
+  <suite started-at="2024-01-18T13:57:36 IST" name="Suite" finished-at="2024-01-18T13:57:36 IST" duration-ms="81">
     <groups>
+      <group name="regression">
+        <method signature="GroupingExample.test2()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" name="test2" class="Annotataions.GroupingExample"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroupingExample.test1()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" name="test1" class="Annotataions.GroupingExample"/>
+        <method signature="GroupingExample.test2()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" name="test2" class="Annotataions.GroupingExample"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-11-05T17:42:07Z" name="Default test" finished-at="2023-11-05T17:42:07Z" duration-ms="41">
-      <class name="Annotataions.TestNGAnnotations">
-        <test-method is-config="true" signature="connectWithDb()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="connectWithDb" finished-at="2023-11-05T17:42:07Z" duration-ms="10" status="PASS">
+    <test started-at="2024-01-18T13:57:36 IST" name="Test" finished-at="2024-01-18T13:57:36 IST" duration-ms="81">
+      <class name="Annotataions.GroupingExample">
+        <test-method signature="test1()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" started-at="2024-01-18T13:57:36 IST" name="test1" finished-at="2024-01-18T13:57:36 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectWithDb -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="launchBrowser" finished-at="2023-11-05T17:42:07Z" duration-ms="0" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" started-at="2024-01-18T13:57:36 IST" name="test2" finished-at="2024-01-18T13:57:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="login" finished-at="2023-11-05T17:42:07Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="serachTest()[pri:1, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="serachTest" finished-at="2023-11-05T17:42:07Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- serachTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="logout" finished-at="2023-11-05T17:42:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="login" finished-at="2023-11-05T17:42:07Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="serachPatient()[pri:2, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="serachPatient" finished-at="2023-11-05T17:42:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- serachPatient -->
-        <test-method is-config="true" signature="DisconnectWithDb()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="DisconnectWithDb" finished-at="2023-11-05T17:42:07Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DisconnectWithDb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="closeBrowser" finished-at="2023-11-05T17:42:07Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Annotataions.TestNGAnnotations@1b75c2e3]" started-at="2023-11-05T17:42:07Z" name="logout" finished-at="2023-11-05T17:42:07Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- Annotataions.TestNGAnnotations -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test2 -->
+      </class> <!-- Annotataions.GroupingExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
