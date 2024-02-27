@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-18T13:57:36 IST" name="Suite" finished-at="2024-01-18T13:57:36 IST" duration-ms="81">
+  <suite started-at="2024-02-15T18:25:57 IST" name="Suite" finished-at="2024-02-15T18:25:58 IST" duration-ms="58">
     <groups>
-      <group name="regression">
-        <method signature="GroupingExample.test2()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" name="test2" class="Annotataions.GroupingExample"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="GroupingExample.test1()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" name="test1" class="Annotataions.GroupingExample"/>
-        <method signature="GroupingExample.test2()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" name="test2" class="Annotataions.GroupingExample"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-01-18T13:57:36 IST" name="Test" finished-at="2024-01-18T13:57:36 IST" duration-ms="81">
-      <class name="Annotataions.GroupingExample">
-        <test-method signature="test1()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" started-at="2024-01-18T13:57:36 IST" name="test1" finished-at="2024-01-18T13:57:36 IST" duration-ms="10" status="PASS">
+    <test started-at="2024-02-15T18:25:57 IST" name="Test1" finished-at="2024-02-15T18:25:58 IST" duration-ms="58">
+      <class name="TestNgExamples.Sample3">
+        <test-method signature="m1()[pri:0, instance:TestNgExamples.Sample3@48aca48b]" started-at="2024-02-15T18:25:58 IST" name="m1" finished-at="2024-02-15T18:25:58 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:Annotataions.GroupingExample@3e8c3cb]" started-at="2024-01-18T13:57:36 IST" name="test2" finished-at="2024-01-18T13:57:36 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:TestNgExamples.Sample3@48aca48b]" started-at="2024-02-15T18:25:58 IST" name="m2" finished-at="2024-02-15T18:25:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- Annotataions.GroupingExample -->
-    </test> <!-- Test -->
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:TestNgExamples.Sample3@48aca48b]" started-at="2024-02-15T18:25:58 IST" name="m3" finished-at="2024-02-15T18:25:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- TestNgExamples.Sample3 -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-02-15T18:25:57 IST" name="Test2" finished-at="2024-02-15T18:25:58 IST" duration-ms="58">
+      <class name="TestNgExamples.Sample4">
+        <test-method signature="m4()[pri:0, instance:TestNgExamples.Sample4@235ecd9f]" started-at="2024-02-15T18:25:58 IST" name="m4" finished-at="2024-02-15T18:25:58 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method signature="m5()[pri:0, instance:TestNgExamples.Sample4@235ecd9f]" started-at="2024-02-15T18:25:58 IST" name="m5" finished-at="2024-02-15T18:25:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method signature="m6()[pri:0, instance:TestNgExamples.Sample4@235ecd9f]" started-at="2024-02-15T18:25:58 IST" name="m6" finished-at="2024-02-15T18:25:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+      </class> <!-- TestNgExamples.Sample4 -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
